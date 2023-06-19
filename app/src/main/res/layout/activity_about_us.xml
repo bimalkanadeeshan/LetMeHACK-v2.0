@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.letmehack.administrator.letmehack1.com.letmehack.administrator.letmehack.AboutUs"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        tools:context="com.letmehack.administrator.letmehack1.AboutUs"
+        tools:layout_editor_absoluteY="52dp">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="180dp"
+                android:layout_height="44dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="34dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:srcCompat="@drawable/cis"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="180dp"
+                android:layout_height="44dp"
+                android:layout_alignLeft="@+id/imageView22"
+                android:layout_alignStart="@+id/imageView22"
+                android:layout_below="@+id/textView13"
+                android:layout_marginTop="9dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:srcCompat="@drawable/ieee"
+                tools:layout_editor_absoluteY="352dp" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="180dp"
+                android:layout_height="44dp"
+                android:layout_alignEnd="@+id/imageView23"
+                android:layout_alignRight="@+id/imageView23"
+                android:layout_below="@+id/textView14"
+                android:layout_marginEnd="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:srcCompat="@drawable/socs"
+                tools:layout_editor_absoluteY="256dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView22"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:text="The Department of Computing and Information Systems was established on the 1st of March 2011. The demand for the BSc. Spcial degree in Information Systems has highly increased within the past six years with the contribution of passed out four batches of the department who are currently working on the Information Technoly Industry. The department has close collaborations with the IT industry to obtain technical and academic support for undergraduates for their projects, internships and for their final year researches which provide more innovative ideas to the IT industry."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintHorizontal_bias="0.503"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteY="44dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView13"
+                android:layout_alignStart="@+id/textView13"
+                android:layout_below="@+id/imageView23"
+                android:layout_marginTop="9dp"
+                android:text="IEEE, the World's largest technical professional organization for the advancement of technology is dedicated for advancing technology for humanity and being within the voyage to enhance human life with the aid of technologies. The university student branch was established on 2016 and survive in infancy stage."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.567"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="255dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView14"
+                android:layout_alignStart="@+id/textView14"
+                android:layout_below="@+id/imageView25"
+                android:layout_marginBottom="20dp"
+                android:text="Society of Computer Sciences (SOCS) was formed with the students under the department of CIS and other undergraduates who are interested in the field of IT."
+                android:textAlignment="center"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:layout_editor_absoluteY="396dp" />
+        </RelativeLayout>
+
+    </ScrollView>
+    <include
+        android:id="@+id/register_toolbar"
+        layout="@layout/backtolbar"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>

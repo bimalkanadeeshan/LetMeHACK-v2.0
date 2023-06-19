@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "262138766114",
+    "firebase_url": "https://letmehack1-934f6.firebaseio.com",
+    "project_id": "letmehack1-934f6",
+    "storage_bucket": "letmehack1-934f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262138766114:android:0fe05380248a6440da3b7b",
+        "android_client_info": {
+          "package_name": "com.letmehack.administrator.letmehack1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262138766114-42cv2lbroqc370bcg9qp3birrfqreril.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.letmehack.administrator.letmehack1",
+            "certificate_hash": "8e4cc858b4dc0a00340db425e22681856fc363a1"
+          }
+        },
+        {
+          "client_id": "262138766114-n6ds5gvbtaonhc62hhv7tshf8a5e1caj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtBmCJp59qwYJrAj58NIyZ1HWHH9zAd6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262138766114-n6ds5gvbtaonhc62hhv7tshf8a5e1caj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
